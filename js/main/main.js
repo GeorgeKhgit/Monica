@@ -7,11 +7,9 @@ document.addEventListener("DOMContentLoaded", () => {
     catch: false,
     url: "https://georgekhgit.github.io/Monica/data.json",
     
-    success: function(datas) {
-      console.log(datas)
-      let datasik = JSON.parse(datas)
-      for (let i = 0; i < datasik.length; i++) {
-        if (datasik[i].type == "Shorts") {
+    success: function(datas) { 
+      for (let i = 0; i < datas.length; i++) {
+        if (datas[i].type == "Shorts") {
           let outSideContainer = document.createElement("div");
           let cardTitle = document.createElement("p");
           let cardDescription = document.createElement("p");
@@ -28,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
           let imageforLike = document.createElement("img");
           let patagraphLike = document.createElement("p");
 
-          cardCostHover.innerHTML = datasik[i].cost_ts;
+          cardCostHover.innerHTML = datas[i].cost_ts;
           cardCostHover.classList.add("cardCostHover");
 
           imageforLike.src = "img/icons/lover.png";
@@ -38,8 +36,8 @@ document.addEventListener("DOMContentLoaded", () => {
           imgLiker.classList.add("imgLiker");
 
           hoverCoster.classList.add("hoverCoster");
-          cardTitlehover.innerHTML = datasik[i].title;
-          cardDescriptionhover.innerHTML = datasik[i].type;
+          cardTitlehover.innerHTML = datas[i].title;
+          cardDescriptionhover.innerHTML = datas[i].type;
           cardDescriptionhover.classList.add("cardDescriptionhover");
           cardTitlehover.classList.add("cardTitlehover");
 
@@ -54,16 +52,16 @@ document.addEventListener("DOMContentLoaded", () => {
           hoverCoster.appendChild(cardButtonhover);
           hoverCoster.appendChild(imgLiker);
           hoverCoster.appendChild(cardCostHover);
-          cardTitle.innerHTML = datasik[i].title;
+          cardTitle.innerHTML = datas[i].title;
           cardTitle.classList.add("cardTitle");
 
-          cardDescription.innerHTML = datasik[i].type;
+          cardDescription.innerHTML = datas[i].type;
           cardDescription.classList.add("cardDescription");
 
-          cardImg.src = datasik[i].image_ts;
+          cardImg.src = datas[i].image_ts;
           cardImg.classList.add("cardImg");
 
-          cardCost.innerHTML = datasik[i].cost_ts;
+          cardCost.innerHTML = datas[i].cost_ts;
           cardCost.classList.add("cardCost");
           outSideContainer.appendChild(hoverCoster);
           outSideContainer.classList.add("outSideContainer");
@@ -72,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
           outSideContainer.appendChild(cardImg);
           outSideContainer.appendChild(cardCost);
           document.getElementById("collect2015").appendChild(outSideContainer);
-        } else if (datasik[i].type == "Rubashka") {
+        } else if (datas[i].type == "Rubashka") {
         }
       }
     }

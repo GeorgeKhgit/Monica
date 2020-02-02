@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     url: "https://georgekhgit.github.io/Monica/data.json",
     
     success: function(datas) {
+      console.log(datas)
       let datasik = JSON.parse(datas)
       for (let i = 0; i < datasik.length; i++) {
         if (datasik[i].type == "Shorts") {

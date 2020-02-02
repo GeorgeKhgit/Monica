@@ -1,0 +1,25 @@
+@mixin IpadeLow {
+  @media screen and(max-width:1150px) {
+    @content;
+  }
+}
+@mixin IpadReverse {
+  @media screen and(max-width:1024px) {
+    @content;
+  }
+}
+@mixin IpadScreen {
+  @media screen and(max-width:768px) {
+    @content;
+  }
+}
+@mixin PrePhoneScreen {
+  @media screen and (max-width: 675px) {
+    @content;
+  }
+}
+@mixin PhoneScreen {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}

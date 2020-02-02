@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "title": "Denim Shorts In Slim Fit",
+    "type": "Shorts",
+    "image_ts": "img/components/niker.jpg",
+    "cost_ts": "$124"
+  },
+  {
+    "id": 2,
+    "title": "Denim Shorts In Slim Fit",
+    "type": "Shorts",
+    "image_ts": "img/components/niker.jpg",
+    "cost_ts": "$124"
+  },
+  {
+    "id": 3,
+    "title": "Denim Shorts In Slim Fit",
+    "type": "Shorts",
+    "image_ts": "img/components/niker.jpg",
+    "cost_ts": "$124"
+  },
+  {
+    "id": 4,
+    "title": "Denim Shorts In Slim Fit",
+    "type": "Shorts",
+    "image_ts": "img/components/niker.jpg",
+    "cost_ts": "$124"
+  },
+  {
+    "id": 5,
+    "title": "Denim Shorts In Slim Fit",
+    "type": "Shorts",
+    "image_ts": "img/components/niker.jpg",
+    "cost_ts": "$124"
+  },
+  {
+    "id": 6,
+    "title": "Denim Shorts In Slim Fit",
+    "type": "Shorts",
+    "image_ts": "img/components/niker.jpg",
+    "cost_ts": "$124"
+  },
+  {
+    "id": 7,
+    "title": "Denim Shorts In Slim Fit",
+    "type": "Shorts",
+    "image_ts": "img/components/niker.jpg",
+    "cost_ts": "$124"
+  },
+  {
+    "id": 8,
+    "title": "Denim Shorts In Slim Fit",
+    "type": "Shorts",
+    "image_ts": "img/components/niker.jpg",
+    "cost_ts": "$124"
+  },
+  {
+    "id": 9,
+    "title": "Denim Shorts In Slim Fit",
+    "type": "Rubashka",
+    "image_ts": "",
+    "cost_ts": "$124"
+  },
+  {
+    "id": 10,
+    "title": "Denim Shorts In Slim Fit",
+    "type": "Rubashka",
+    "image_ts": "",
+    "cost_ts": "$124"
+  },
+  {
+    "id": 11,
+    "title": "Denim Shorts In Slim Fit",
+    "type": "Rubashka",
+    "image_ts": "",
+    "cost_ts": "$124"
+  },
+  {
+    "id": 12,
+    "title": "Denim Shorts In Slim Fit",
+    "type": "Rubashka",
+    "image_ts": "",
+    "cost_ts": "$124"
+  },
+  {
+    "id": 13,
+    "title": "Denim Shorts In Slim Fit",
+    "type": "Rubashka",
+    "image_ts": "",
+    "cost_ts": "$124"
+  },
+  {
+    "id": 14,
+    "title": "Denim Shorts In Slim Fit",
+    "type": "Rubashka",
+    "image_ts": "",
+    "cost_ts": "$124"
+  },
+  {
+    "id": 15,
+    "title": "Denim Shorts In Slim Fit",
+    "type": "Rubashka",
+    "image_ts": "",
+    "cost_ts": "$124"
+  },
+  {
+    "id": 16,
+    "title": "Denim Shorts In Slim Fit",
+    "type": "Rubashka",
+    "image_ts": "",
+    "cost_ts": "$124"
+  }
+]

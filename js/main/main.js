@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   $.ajax({
     method: "GET",
     catch: false,
-    url: "http://ck68801.tmweb.ru/data.json",
+    url: "https://georgekhgit.github.io/Monica/data.json",
     
     success: function(datas) {
       let datasik = JSON.parse(datas)
